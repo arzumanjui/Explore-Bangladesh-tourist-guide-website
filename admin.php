@@ -31,7 +31,7 @@
           <input type="submit" value="Submit">
         </div>
         <div class="container signin">
-            <p>New User? <a href="register.html">Sign Up Here</a>.</p>
+            <p>New User? <a href="register.php">Sign Up Here</a>.</p>
           </div>
       </form>
     </div>

@@ -250,14 +250,14 @@ header .search-bar-container label:hover{
 
 .home .content h3{
   font-size: 4.5rem;
-  color:red;
+  color:white;
   text-transform: uppercase;
   text-shadow: 0 .3rem .5rem rgba(0,0,0,.1);
 }
 
 .home .content p{
   font-size: 2.5rem;
-  color:red;
+  color:white;
   font-weight: bold;
   padding:.5rem 0;
 }

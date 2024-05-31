@@ -29,7 +29,7 @@
         <a href="#services">services</a>
         <a href="#tourist">tourist places</a>
         <a href="#contact">contact</a>
-        <a href="admin.html">Admin Login</a>
+        
     </nav>
 
     <div class="icons">
@@ -53,15 +53,15 @@
 
     <i class="fas fa-times" id="form-close"></i>
 
-    <form action="">
+    <form action="loginvalidation.php" method="post">
         <h3>User login</h3>
-        <input type="email" class="box" placeholder="enter your email">
-        <input type="password" class="box" placeholder="enter your password">
-        <input type="submit" value="login now" class="btn">
+        <input type="email" class="box" placeholder="enter your email" name="email">
+        <input type="password" class="box" placeholder="enter your password" name="password">
+        <input type="submit" name="submit" value="login now" class="btn">
         <input type="checkbox" id="remember">
         <label for="remember">remember me</label>
-        <p>forget password? <a href="fpass.html">click here</a></p>
-        <p>don't have and account? <a href="register.html">register now</a></p>
+        <p>forget password? <a href="fpass.php">click here</a></p>
+        <p>don't have and account? <a href="register.php">register now</a></p>
     </form>
 
 </div>
@@ -157,7 +157,7 @@
             <div class="content">
                 <h3>Rajshahi Division</h3>
                 <p>Rajshahi is a metropolitan city and a major urban, commercial and educational centre of Bangladesh.</p>
-                <a href="rajshahi.html" class="btn">see more</a>
+                <a href="rajshahi.php" class="btn">see more</a>
             </div>
         </div>
         <div class="box">
@@ -165,7 +165,7 @@
             <div class="content">
                 <h3>Dhaka Division</h3>
                 <p>Dhaka is the capital city of Bangladesh, in southern Asia.</p>
-                <a href="Dhaka.html" class="btn">see more</a>
+                <a href="Dhaka.php" class="btn">see more</a>
             </div>
         </div>
         <div class="box">
@@ -173,7 +173,7 @@
             <div class="content">
                 <h3>Sylhet Division</h3>
                 <p>Sylhet is a city in eastern Bangladesh, on the Surma River.</p>
-                <a href="sylhet.html" class="btn">see more</a>
+                <a href="sylhet.php" class="btn">see more</a>
             </div>
         </div>
         <div class="box">
@@ -181,7 +181,7 @@
             <div class="content">
                 <h3>Rangpur Division</h3>
                 <p>Rangpur is one of the major cities in Bangladesh and Rangpur Division.</p>
-                <a href="rangpur.html" class="btn">see more</a>
+                <a href="rangpur.php" class="btn">see more</a>
             </div>
         </div>
         <div class="box">
@@ -245,17 +245,17 @@
             <img src="images/contact-img.svg" alt="">
         </div>
 
-        <form action="">
+        <form action="contactvalidation.php" method="post">
             <div class="inputBox">
-                <input type="text" placeholder="name">
-                <input type="email" placeholder="email">
+                <input type="text" placeholder="name" name="name">
+                <input type="email" placeholder="email" name="email">
             </div>
             <div class="inputBox">
-                <input type="number" placeholder="number">
-                <input type="text" placeholder="subject">
+                <input type="text" placeholder="phone" name="phone">
+                <input type="text" placeholder="subject" name="subject">
             </div>
-            <textarea placeholder="message" name="" id="" cols="30" rows="10"></textarea>
-            <input type="submit" class="btn" value="send message">
+            <textarea placeholder="message" name="message" id="" cols="30" rows="10"></textarea>
+            <input type="submit" name="submit" class="btn" value="send message">
         </form>
 
     </div>
